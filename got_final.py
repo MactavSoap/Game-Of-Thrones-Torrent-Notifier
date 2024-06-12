@@ -44,11 +44,11 @@ if checkedData.find("1") == -1:
     # ##################################################################
 
     for torrent in torrents:
-        if "S07E04" in torrent['href']:
+        if "S02E05" in torrent['href']:
             torrentNames.append(torrent['href'])
 
     for name in names:
-        if "S07E04" in name.text:
+        if "S02E05" in name.text:
             namesAll.append(name.text)
     allTogether = dict(zip(namesAll, torrentNames))
 
